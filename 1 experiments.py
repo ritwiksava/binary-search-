@@ -23,4 +23,25 @@ def find_all_indexes(numbers, key):
          high = mid - 1          
    
 
+
 print((find_all_indexes([10,4,5,3,3,8,11,3,4,1,2],3)))
+
+
+if __name__ == "__main__":
+    data = [1, 3, 5, 8, 9, 12, 15]
+    x = int(input("Enter number to search: "))
+    result = find_all_indexes(data, x)
+
+    if result != -1:
+        print(f"Found at index  {result}")
+    else:
+        print("Not found")
+
+
+
+
+
+
+
+
+
